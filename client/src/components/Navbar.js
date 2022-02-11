@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Navbar extends Component {
   render() {
@@ -11,8 +11,7 @@ export default class Navbar extends Component {
         </div>
 
         <div id="navbarBasicExample" className="navbar-menu">
-          <div className="navbar-start">
-          </div>
+          <div className="navbar-start"></div>
 
           <div className="navbar-end">
             <div className="navbar-item">
@@ -28,6 +27,6 @@ export default class Navbar extends Component {
           </div>
         </div>
       </nav>
-    )
+    );
   }
 }
